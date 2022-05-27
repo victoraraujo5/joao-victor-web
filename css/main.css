@@ -1,12 +1,16 @@
 *{
+    outline: 0 !important;
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 .corpo{
     height: 100vh;
     width: 100%;
+    min-width: 1200px;
+    padding: 0;
+    margin: 0;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -102,14 +106,18 @@ h4{
     right: 6px;
     top: 6px;
 }
+/*Meio CSS*/
 .meio{
     width: 100%;
+    min-width: 1200px;
     padding: 100px 0px;
     background-color: #191919;
 }
 .meio img{
     height: auto;
     width: 430px;
+    padding: 3px;
+    margin: 5px;
 }
 .meio-sobre{
     width: 550px;
@@ -140,7 +148,7 @@ h4{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    margin-bottom: 45px
+    margin-bottom: 45px;
 }
 button{
     background-color: tomato;
@@ -151,15 +159,18 @@ button{
     padding: 20px 30px;
     border-radius: 30px;
     transition: .4s ;
+    font-size: 15px;
 }
 button:hover{
     background-color: transparent;
     border: 2px solid tomato;
     cursor: pointer;
 }
+/*Serviços CSS */
 .servico{
     background: #101010;
     width: 100%;
+    min-width: 1200px;
     padding: 100px 0px;
 }
 .titulo h2{
@@ -219,8 +230,10 @@ h5{
     border: 2px solid tomato;
     cursor: pointer;
 }
+/*Fim site CSS*/
 .contato{
     width: 100%;
+    min-width: 1200px;
     height: 290px;
     background: #191919;
     display: flex;
@@ -252,6 +265,7 @@ h5{
 footer{
     position: relative;
     width: 100%;
+    min-width: 1200px;
     height: 400px;
     background: #101010;
     display: flex;
@@ -298,3 +312,6 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 20px;
 }
+
+
+
